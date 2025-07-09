@@ -1,0 +1,16 @@
+# Variables
+@baseUrl = http://localhost:3333
+
+# Get rooms
+GET {{baseUrl}}/rooms
+
+###
+
+# Create Room
+POST {{baseUrl}}/rooms
+Content-Type: application/json
+
+{
+  "name": "Test JJ",
+  "description": "Testing new route"
+}
