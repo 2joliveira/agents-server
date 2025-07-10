@@ -22,3 +22,14 @@ Content-Type: application/json
 # Get room questions
 # @name getRoomQuestions
 GET {{baseUrl}}/rooms/0dbc2f98-4968-44be-4fdb-f399737e5e21/questions
+
+###
+
+# Create question
+# @name createQuestion
+POST {{baseUrl}}/rooms/0dbc2f98-4968-44be-4fdb-f399737e5e21/questions
+Content-Type: application/json
+
+{
+  "question": "Create question test"
+}
