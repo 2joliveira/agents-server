@@ -2,11 +2,13 @@
 @baseUrl = http://localhost:3333
 
 # Get rooms
+# @name getRooms
 GET {{baseUrl}}/rooms
 
 ###
 
 # Create Room
+# @name createRoom
 POST {{baseUrl}}/rooms
 Content-Type: application/json
 
@@ -14,3 +16,9 @@ Content-Type: application/json
   "name": "Test JJ",
   "description": "Testing new route"
 }
+
+###
+
+# Get room questions
+# @name getRoomQuestions
+GET {{baseUrl}}/rooms/0dbc2f98-4968-44be-4fdb-f399737e5e21/questions
