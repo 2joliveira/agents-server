@@ -4,7 +4,7 @@ import { schema } from "../../db/schemas/index.ts";
 import { z } from "zod/v4";
 import { desc, eq } from "drizzle-orm";
 
-export const getRoomsQuestion: FastifyPluginCallbackZod = (app) => {
+export const getRoomsQuestionRoute: FastifyPluginCallbackZod = (app) => {
   app.get(
     "/rooms/:roomId/questions",
     {
