@@ -16,15 +16,6 @@ API desenvolvida durante um evento da Rocketseat, com foco em processamento de l
 
 O projeto segue uma arquitetura modular com:
 
-- **Separação de responsabilidades** entre rotas, schemas e conexão com banco
-- **Validação de schemas** com Zod para type safety
-- **ORM type-safe** com Drizzle para operações de banco de dados
-- **Validação de variáveis de ambiente** centralizadas
-
-## 🏗️ Arquitetura
-
-O projeto segue uma arquitetura modular com:
-
 - **Separação de responsabilidades entre rotas (http/routes), schemas (db/schemas) e serviços (services)**
 
 - **Validação de schemas com Zod para garantir segurança de tipos**
